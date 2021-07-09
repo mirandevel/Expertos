@@ -6,7 +6,7 @@
 package com.mycompany.mac;
 
 import com.mycompany.mac.regla.Nueva;
-import com.mycompany.mac.variables.Variables;
+import com.mycompany.mac.variables.VariablesForm;
 
 /**
  *
@@ -15,7 +15,7 @@ import com.mycompany.mac.variables.Variables;
 public class BaseConocimiento extends javax.swing.JFrame {
 
     /**
-     * Creates new form Variables
+     * Creates new form VariablesForm
      */
     public BaseConocimiento() {
         initComponents();
@@ -117,7 +117,7 @@ public class BaseConocimiento extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
-        Variables variables=new Variables();
+        VariablesForm variables=new VariablesForm();
         variables.setVisible(true);
     }//GEN-LAST:event_jButton2MouseClicked
 
@@ -219,7 +219,7 @@ public class BaseConocimiento extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // VariablesForm declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
